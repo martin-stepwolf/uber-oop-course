@@ -7,6 +7,6 @@ $car->passenger = 3;
 $car->printCar();
 
 
-$car2 = new Car('MTZSG12', new Account('Martin2', '21GSYTM'));
+$car2 = new UberX('MTZSG12', new Account('Martin2', '21GSYTM'), "Chevrolet", "Spark");
 $car2->passenger = 3;
 $car2->printCar();

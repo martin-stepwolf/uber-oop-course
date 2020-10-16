@@ -5,7 +5,7 @@ class Main {
         car.passenger = 4;
         car.printDataCar();
 
-        Car car2 = new Car("MTZSG12", new Account("Martin2", "21GSZTM"));
+        Car car2 = new UberX("MTZSG12", new Account("Martin2", "21GSZTM"), "Chevrolet", "Spark");
         car2.passenger = 3;
         car2.printDataCar();
     }
