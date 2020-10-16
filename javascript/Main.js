@@ -1,13 +1,9 @@
 console.log("hello world");
 
-var car = new Car();
-car.license = 'MZXS321';
-car.driver = 'Martin';
+var car = new Car("MZXS321", new Account("Martin", "123SXYM"));
 car.passenger = 3;
-console.log(car);
+car.printDataCar();
 
-var car2 = new Car();
-car2.license = 'MTZSG12';
-car2.driver = 'Martin2';
+var car2 = new Car("MTZSG12", new Account("Martin2", "21GSZTM"));
 car2.passenger = 3;
-console.log(car2);
+car2.printDataCar();
